@@ -10,12 +10,12 @@ function SectionPage({ title, children }) {
           <h1 className="py-3 text-6xl font-bold tracking-tight bg-linear-to-r from-indigo-600 to-indigo-800 bg-clip-text text-transparent">
             {title}
           </h1>
-          <div className="mt-5">
+          <div className="mt-5 w-150">
             {children}
           </div>
           
         </main>
-        <Footer />
+        {/* <Footer /> */}
       </div>
     </>
   );

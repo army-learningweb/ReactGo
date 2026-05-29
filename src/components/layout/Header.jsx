@@ -6,7 +6,7 @@ function Header() {
       <header className="border-b border-gray-100">
         <nav className="flex justify-between items-center max-w-5xl mx-auto py-3">
           <div className="font-bold text-3xl tracking-tight">
-            <span>webtalks</span>
+            <span>devschools</span>
           </div>
           <ul className="flex gap-10 mt-1">
             {navigations?.length > 0 &&
